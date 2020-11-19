@@ -1,0 +1,85 @@
+body {
+  font-family: "Prompt", sans-serif;
+  font-size: 100%;
+}
+
+article {
+  -webkit-box-shadow: 3px 3px 8px 1px rgba(0, 0, 0, 0.63);
+  box-shadow: 3px 3px 8px 1px rgba(0, 0, 0, 0.63);
+}
+
+p {
+  font-size: 2.5vh;
+  line-height: 180%;
+}
+
+header {
+  display: flex;
+  min-height: 80vh;
+  background-image: url(../media/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  justify-content: center;
+}
+
+section {
+  padding: 0.3rem;
+  margin-bottom: 6rem;
+}
+
+h1 {
+  color: white;
+  letter-spacing: 1vh;
+  font-size: 7vh;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 0.2rem;
+}
+
+h3 {
+  text-align: center;
+  font-size: 4vh;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+}
+
+nav a {
+  font-size: 3vh;
+  padding: 3rem;
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+nav a:visited {
+  color: black;
+}
+
+#welcometxt {
+  size: 75%;
+  /*-webkit-box-shadow: 3px 3px 8px 1px rgba(0, 0, 0, 0.63);
+  box-shadow: 3px 3px 8px 1px rgba(0, 0, 0, 0.63);*/
+  padding: 0.3rem;
+  text-align: center;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+}
+
+img {
+  width: 100%;
+}

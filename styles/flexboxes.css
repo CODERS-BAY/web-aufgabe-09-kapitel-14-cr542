@@ -1,0 +1,16 @@
+#flex_container_thermik {
+  display: flex;
+  flex-direction: row;
+}
+
+#flex_item_thermik_1 {
+  width: 50%;
+  text-align: justify;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+#flex_item_thermik_2 {
+  padding-top: 1.5rem;
+  width: 50%;
+}
