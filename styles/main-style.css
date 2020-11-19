@@ -83,3 +83,10 @@ nav a:visited {
 img {
   width: 100%;
 }
+
+#slt_text_bild {
+  padding-top: 0.5rem;
+  padding-right: 1rem;
+  width: 30%;
+  float: left;
+}

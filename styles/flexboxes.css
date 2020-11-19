@@ -14,3 +14,15 @@
   padding-top: 1.5rem;
   width: 50%;
 }
+
+#flex_container_slt {
+  display: flex;
+  flex-direction: row;
+}
+
+#flex_item_slt_1 {
+  width: 100%;
+  text-align: justify;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
