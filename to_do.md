@@ -4,3 +4,4 @@
 - #### Farbthema
 - #### evtl. optische Verbesserungen?
 - #### Spaltensatz?
+- #### Bilder komprimieren
