@@ -3,11 +3,6 @@ body {
   font-size: 100%;
 }
 
-article {
-  -webkit-box-shadow: 3px 3px 8px 1px rgba(0, 0, 0, 0.63);
-  box-shadow: 3px 3px 8px 1px rgba(0, 0, 0, 0.63);
-}
-
 p {
   font-size: 2.5vh;
   line-height: 180%;
@@ -25,8 +20,11 @@ header {
 }
 
 section {
+  position: relative;
   padding: 0.3rem;
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
+  -webkit-box-shadow: 3px 3px 8px 1px rgba(0, 0, 0, 0.29);
+  box-shadow: 3px 3px 8px 1px rgba(0, 0, 0, 0.29);
 }
 
 h1 {
@@ -38,6 +36,11 @@ h1 {
   margin-bottom: 0.2rem;
 }
 
+h2 {
+  text-align: center;
+  font-size: 4.5vh;
+}
+
 h3 {
   text-align: center;
   font-size: 4vh;
@@ -45,6 +48,10 @@ h3 {
 
 nav {
   margin-top: 1rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  -webkit-box-shadow: 3px 3px 8px 1px rgba(0, 0, 0, 0.29);
+  box-shadow: 3px 3px 8px 1px rgba(0, 0, 0, 0.29);
 }
 
 nav ul {
@@ -63,30 +70,53 @@ nav a {
 
 nav a:hover {
   color: black;
-  text-decoration: underline;
+  /*text-decoration: underline;*/
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.27);
 }
 
 nav a:visited {
   color: black;
 }
 
+/* 
+section a {
+  color: black;
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 2rem;
+}
+
+section a:hover {
+  color: black;
+  text-decoration: underline;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.27);
+}
+
+section a:visited {
+  color: black;
+} */
+
 #welcometxt {
   size: 75%;
-  /*-webkit-box-shadow: 3px 3px 8px 1px rgba(0, 0, 0, 0.63);
-  box-shadow: 3px 3px 8px 1px rgba(0, 0, 0, 0.63);*/
-  padding: 0.3rem;
-  text-align: center;
-  padding-left: 0.3rem;
-  padding-right: 0.3rem;
+  text-align: justify;
+  columns: 2;
+  column-gap: 3rem;
+  column-rule: black;
 }
 
 img {
   width: 100%;
 }
 
-#slt_text_bild {
+figure {
   padding-top: 0.5rem;
-  padding-right: 1rem;
   width: 30%;
   float: left;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 80%;
+  color: black;
 }
