@@ -1,10 +1,9 @@
 body {
   font-family: "Prompt", sans-serif;
-  font-size: 100%;
+  font-size: 110%;
 }
 
 p {
-  font-size: 2.5vh;
   line-height: 180%;
 }
 
@@ -22,9 +21,10 @@ header {
 section {
   position: relative;
   padding: 0.3rem;
+  margin-top: 3rem;
   margin-bottom: 4rem;
-  -webkit-box-shadow: 3px 3px 8px 1px rgba(0, 0, 0, 0.29);
-  box-shadow: 3px 3px 8px 1px rgba(0, 0, 0, 0.29);
+  /*   -webkit-box-shadow: 3px 3px 8px 1px rgba(0, 0, 0, 0.29);
+  box-shadow: 3px 3px 8px 1px rgba(0, 0, 0, 0.29); */
 }
 
 h1 {
@@ -49,8 +49,8 @@ h3 {
 nav {
   padding: 1rem;
   margin-bottom: 2rem;
-  -webkit-box-shadow: 3px 3px 8px 1px rgba(0, 0, 0, 0.29);
-  box-shadow: 3px 3px 8px 1px rgba(0, 0, 0, 0.29);
+  /*   -webkit-box-shadow: 3px 3px 8px 1px rgba(0, 0, 0, 0.29);
+  box-shadow: 3px 3px 8px 1px rgba(0, 0, 0, 0.29); */
 }
 
 nav ul {
@@ -96,13 +96,13 @@ section a:visited {
   color: black;
 } */
 
-#welcometxt {
+/* #welcometxt {
   size: 75%;
-  text-align: justify;
+  text-align: left;
   columns: 2;
   column-gap: 3rem;
   column-rule: black;
-}
+} */
 
 img {
   width: 100%;
@@ -124,4 +124,26 @@ footer p {
   margin-top: 7rem;
   font-size: 85%;
   text-align: center;
+}
+
+#site_divider {
+  width: 100%;
+  min-height: 50vh;
+  background-image: url(../media/divider1.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.7;
+}
+
+#site_divider_2 {
+  width: 100%;
+  min-height: 50vh;
+  background-image: url(../media/divider2.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.7;
 }
